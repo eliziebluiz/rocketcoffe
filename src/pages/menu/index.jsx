@@ -29,6 +29,12 @@ const Menu = () => {
           </>
         ))}
       </S.Menu>
+      <S.Made>
+        Made by 🤎
+        <a href="https://github.com/eliziebluiz" target="_blank">
+          Elizieb Luiz
+        </a>
+      </S.Made>
     </S.Container>
   );
 };

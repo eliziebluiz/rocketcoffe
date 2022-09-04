@@ -99,3 +99,20 @@ export const TitleItem = styled.div`
     text-transform: uppercase;
   }
 `;
+
+export const Made = styled.section`
+  margin-top: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.313rem;
+  
+  > a {
+    color: ${colors.black};
+    text-decoration: none;
+    margin-left: 0.2rem;
+  }
+  > a:hover {
+    text-decoration: underline;
+    color: ${colors.secondary};
+  }
+`;
